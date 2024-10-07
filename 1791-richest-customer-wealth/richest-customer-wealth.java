@@ -13,6 +13,23 @@ class Solution {
             if(count<sum)
                 count=sum;
                 sum=0;
+        // the above was my first answer before i watched a guiding video but then i found a fancy was writing a code than me in java by using forEach loop
+
+//         int before=0;
+//         for(int[] customer:accounts)
+//         {
+//             int currentCustomerWealth=0;
+//             for(int bank:customer)
+//             {
+//                 currentCustomerWealth+=bank;
+//             }
+//             before=Math.max(currentCustomerWealth,before);
+
+//             }
+//              return before;
+//         }
+// }
+       
 
         }
         return count;
